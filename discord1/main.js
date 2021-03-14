@@ -17,7 +17,7 @@ for(const file of commandFiles){
 
 client.once('ready', () => {
     console.log('quran is online!');
-    client.user.setActivity('yourGameNameHere', { type: 'PLAYING' });
+    client.user.setActivity('$قران', { type: 'PLAYING' });
 });
 
 client.on('message', message =>{
