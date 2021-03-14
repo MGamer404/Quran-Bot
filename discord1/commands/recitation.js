@@ -24,7 +24,7 @@ module.exports = {
  
             connection.play(stream, {seek: 0, volume: 1})
             .on('finish', () =>{
-                message.channel.send('$اقرا https://www.youtube.com/watch?v=wwMyn8a_puQ');
+                message.channel.send('$اقرا2 https://www.youtube.com/watch?v=wwMyn8a_puQ');
             });
  
             await message.reply(`جاري تشغيل السورة`)
