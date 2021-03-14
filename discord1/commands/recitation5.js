@@ -2,7 +2,7 @@ const ytdl = require('ytdl-core');
 const ytSearch = require('yt-search');
  
 module.exports = {
-    name: '5اقرا',
+    name: 'اقرا5',
     description: 'Joins and plays a video from youtube',
     async execute(message, args) {
         const voiceChannel = message.member.voice.channel;
@@ -24,7 +24,7 @@ module.exports = {
  
             connection.play(stream, {seek: 0, volume: 1})
             .on('finish', () =>{
-                message.channel.send('$5اقرا https://www.youtube.com/watch?v=MGEWrAtHFwU');
+                message.channel.send('$اقرا5 https://www.youtube.com/watch?v=MGEWrAtHFwU');
             });
  
             await message.reply(`جاري تشغيل السورة`)
