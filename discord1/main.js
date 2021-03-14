@@ -33,6 +33,14 @@ client.on('message', message =>{
         client.commands.get('اقرا').execute(message, args);
     } else if (command === 'اقرا2') {
         client.commands.get('اقرا2').execute(message, args);
+    }else if (command === 'اقرا3') {
+        client.commands.get('اقرا3').execute(message, args);
+    }else if (command === 'اقرا4') {
+        client.commands.get('اقرا4').execute(message, args);
+    }else if (command === 'اقرا5') {
+        client.commands.get('اقرا5').execute(message, args);
+    }else if (command === 'اقرا6') {
+        client.commands.get('اقرا6').execute(message, args);
     } else if (command === '1') {
         message.channel.send('$اقرا https://www.youtube.com/watch?v=V9UIIsai5E8');
         client.commands.get('join').execute(message, args);
